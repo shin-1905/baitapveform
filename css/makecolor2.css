@@ -1,0 +1,43 @@
+body{
+    background-color: gray;
+}
+#content{
+    width: 1085px;
+    margin: 0px auto; /* margin để căn giữa */
+    padding: 10px; /* thêm khoảng cách bên trong */
+    background-color: #ffffff;
+    
+}
+table{
+    border-style: groove;
+}
+#tittle{
+    background-color: #ffffff;
+    color: aquamarine;
+    border-style: groove;
+}        
+th,td{
+    font-size: 50px;
+    background-color: aquamarine;
+}
+.ovuong{
+    width: 360px;
+    height: 60px;
+    font-size: 25px;
+}
+.tron{
+    width: 50px;
+    height: 25px;
+}
+.luachon{
+    width: 200px;
+    height: 60px;
+    font-size: 25px;
+    align-content: 
+}
+#dongy2{
+    width: 250px; /*Chiều rộng*/
+    height: 60px; /*Chiều cao*/
+    font-size: 25px;
+}
+ 

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Thiet ke form </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/makecolor2.css">
+        <body>
+            <div id = content>
+            <table>
+                <tr>
+                    <th id="tittle" colspan="2">Phiếu đăng ký tham gia chương trình khuyến mãi </th>
+                </tr>
+                <tr>
+                    <td>Họ và tên</td>
+                    <td>
+                
+                        <input name= "Hovaten" placeholder="Tên của bạn là gì ?" type = "text" class = "ovuong">
+                    </td>
+                </tr>
+                <tr>
+                   <td>Địa chỉ</td>
+                   <td>
+                    <input name="diachi" placeholder="Bạn ở đâu ?" type="text" class="ovuong">
+                   </td> 
+                </tr>
+                <tr>
+                    <td>Điện thoại</td>
+                    <td>
+                        <input name="dienthoai" placeholder="Số điện thoại của bạn là gì ?" type="number" class="ovuong">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Giới tính</td>
+                    <td>
+                        <label> Nam</label>
+                        <input name="chongioitinh" type="radio" class="tron">
+                        <label >Nữ</label>
+                        <input type="radio" name="chongioitinh" class="tron" >
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>Nghề nghiệp</td>
+                    <td>
+                       <select name="nghenghiep" class="luachon">
+                        <option value="Giaoven">Giáo viên</option>
+                        <option value="It">IT</option>
+                        <option value="">Lao động tự do</option>
+                        <option value="">Bác sĩ</option>
+                        <option value="">Đa cấp</option>
+                       </select> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>Chọn sản phẩm tham gia</td>
+                    <td>
+                    <select name="Chonsanpham" class="luachon">
+                       <option value="">Kem đánh răng</option>
+                       <option value="">Nước rửa bát</option>
+                       <option value="">Bột giặt</option>
+                       <option value="">Nước giặt</option>     
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Số người dự đoán</td>
+                    <td>
+                        <input type="text" class="ovuong">
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="2" id="dongy1">
+                        <button id="dongy2" type="button" onclick="alert('Cảm ơn bạn đã sử dụng dịch vụ của chúng tôi')">Đồng ý</button>
+                     </th>
+                    </tr>
+                </table>
+            </div>
+        </body>
+    </head>
+</html>
